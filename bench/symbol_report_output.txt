@@ -1,0 +1,28 @@
+laplacian-filter, periodic stencil, 4 x 4 grid (4 qubits)
+  Cobble input (Pauli leaves)                  k =  16  alpha =   189.150  alpha*k =    3026.40  alpha/||T|| = 2.119  same matrix: yes
+  Cobble optimised (Pauli leaves)              k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  Cobble optimised, given shift leaves         k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  symbol route (separable)                     k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  chosen (never worse than Cobble)             k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  floor ||T|| = 89.250, nonzero Fourier coefficients: 9
+
+2D Laplacian Hx(x)I + I(x)Hy, 4 x 4 grid
+  written with Pauli leaves                    k =   4  alpha =     8.000  alpha*k =      32.00  alpha/||T|| = 1.000  same matrix: yes
+  symbol route                                 k =   4  alpha =     8.000  alpha*k =      32.00  alpha/||T|| = 1.000  same matrix: yes
+  chosen (never worse)                         k =   4  alpha =     8.000  alpha*k =      32.00  alpha/||T|| = 1.000  same matrix: yes
+  floor ||T|| = 8.000, nonzero Fourier coefficients: 5
+
+laplacian-filter, periodic stencil, 8 x 8 grid (6 qubits)
+  Cobble input (Pauli leaves)                  k =  40  alpha =   243.360  alpha*k =    9734.40  alpha/||T|| = 2.727  same matrix: yes
+  Cobble optimised (Pauli leaves)              k =  10  alpha =   111.280  alpha*k =    1112.80  alpha/||T|| = 1.247  same matrix: yes
+  Cobble optimised, given shift leaves         k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  symbol route (separable)                     k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  chosen (never worse than Cobble)             k =   4  alpha =    89.250  alpha*k =     357.00  alpha/||T|| = 1.000  same matrix: yes
+  floor ||T|| = 89.250, nonzero Fourier coefficients: 9
+
+2D Laplacian Hx(x)I + I(x)Hy, 8 x 8 grid
+  written with Pauli leaves                    k =  10  alpha =    10.000  alpha*k =     100.00  alpha/||T|| = 1.250  same matrix: yes
+  symbol route                                 k =   4  alpha =     8.000  alpha*k =      32.00  alpha/||T|| = 1.000  same matrix: yes
+  chosen (never worse)                         k =   4  alpha =     8.000  alpha*k =      32.00  alpha/||T|| = 1.000  same matrix: yes
+  floor ||T|| = 8.000, nonzero Fourier coefficients: 5
+

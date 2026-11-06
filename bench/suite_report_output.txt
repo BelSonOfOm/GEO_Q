@@ -1,0 +1,22 @@
+SCOPE: translation-invariant operators on periodic grids, written as Pauli sums; cost = queries x alpha.
+
+1D Laplacian, 8 pts                 3 q | Pauli: k=   5 alpha=   5.00  cost=     25.0 | ours: k=  2 alpha=   4.00  cost=     8.0 |  3.12x | alpha/||T||=1.00 | same matrix
+1D Laplacian, 16 pts                4 q | Pauli: k=  11 alpha=   6.00  cost=     66.0 | ours: k=  2 alpha=   4.00  cost=     8.0 |  8.25x | alpha/||T||=1.00 | same matrix
+1D Laplacian, 32 pts                5 q | Pauli: k=  23 alpha=   7.00  cost=    161.0 | ours: k=  2 alpha=   4.00  cost=     8.0 | 20.12x | alpha/||T||=1.00 | same matrix
+1D Laplacian, 64 pts                6 q | Pauli: k=  47 alpha=   8.00  cost=    376.0 | ours: k=  2 alpha=   4.00  cost=     8.0 | 47.00x | alpha/||T||=1.00 | same matrix
+1D upwind advection, 8 pts          3 q | Pauli: k=  10 alpha=   4.00  cost=     40.0 | ours: k=  1 alpha=   2.00  cost=     2.0 | 20.00x | alpha/||T||=1.00 | same matrix
+1D upwind advection, 16 pts         4 q | Pauli: k=  22 alpha=   5.00  cost=    110.0 | ours: k=  1 alpha=   2.00  cost=     2.0 | 55.00x | alpha/||T||=1.00 | same matrix
+1D upwind advection, 32 pts         5 q | Pauli: k=  46 alpha=   6.00  cost=    276.0 | ours: k=  1 alpha=   2.00  cost=     2.0 | 138.00x | alpha/||T||=1.00 | same matrix
+1D upwind advection, 64 pts         6 q | Pauli: k=  94 alpha=   7.00  cost=    658.0 | ours: k=  1 alpha=   2.00  cost=     2.0 | 329.00x | alpha/||T||=1.00 | same matrix
+1D biharmonic, 8 pts                3 q | Pauli: k=   7 alpha=  20.00  cost=    140.0 | ours: k=  4 alpha=  16.00  cost=    64.0 |  2.19x | alpha/||T||=1.00 | same matrix
+1D biharmonic, 16 pts               4 q | Pauli: k=  16 alpha=  25.00  cost=    400.0 | ours: k=  4 alpha=  16.00  cost=    64.0 |  6.25x | alpha/||T||=1.00 | same matrix
+1D biharmonic, 32 pts               5 q | Pauli: k=  34 alpha=  30.00  cost=   1020.0 | ours: k=  4 alpha=  16.00  cost=    64.0 | 15.94x | alpha/||T||=1.00 | same matrix
+1D biharmonic, 64 pts               6 q | Pauli: k=  70 alpha=  35.00  cost=   2450.0 | ours: k=  4 alpha=  16.00  cost=    64.0 | 38.28x | alpha/||T||=1.00 | same matrix
+2D Laplacian, 4x4                   4 q | Pauli: k=   4 alpha=   8.00  cost=     32.0 | ours: k=  4 alpha=   8.00  cost=    32.0 |  1.00x | alpha/||T||=1.00 | same matrix
+2D convection-diffusion, 4x4        4 q | Pauli: k=   8 alpha=   5.30  cost=     42.4 | ours: k=  4 alpha=   3.80  cost=    15.2 |  2.79x | alpha/||T||=1.00 | same matrix
+2D biharmonic-type (L x L), 4x4     4 q | Pauli: k=   8 alpha=  16.00  cost=    128.0 | ours: k=  4 alpha=  16.00  cost=    64.0 |  2.00x | alpha/||T||=1.00 | same matrix
+laplacian-filter target, 4x4        4 q | Pauli: k=   8 alpha=  89.25  cost=    714.0 | ours: k=  4 alpha=  89.25  cost=   357.0 |  2.00x | alpha/||T||=1.00 | same matrix
+2D Laplacian, 8x8                   6 q | Pauli: k=  10 alpha=  10.00  cost=    100.0 | ours: k=  4 alpha=   8.00  cost=    32.0 |  3.12x | alpha/||T||=1.00 | same matrix
+2D convection-diffusion, 8x8        6 q | Pauli: k=  20 alpha=   7.00  cost=    140.0 | ours: k=  4 alpha=   3.80  cost=    15.2 |  9.21x | alpha/||T||=1.00 | same matrix
+2D biharmonic-type (L x L), 8x8     6 q | Pauli: k=  35 alpha=  25.00  cost=    875.0 | ours: k=  4 alpha=  16.00  cost=    64.0 | 13.67x | alpha/||T||=1.00 | same matrix
+laplacian-filter target, 8x8        6 q | Pauli: k=  35 alpha= 111.28  cost=   3894.8 | ours: k=  4 alpha=  89.25  cost=   357.0 | 10.91x | alpha/||T||=1.00 | same matrix
